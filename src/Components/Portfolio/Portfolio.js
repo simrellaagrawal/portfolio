@@ -6,14 +6,12 @@ import Header from "../Header/Header";
 const Portfolio = () => {
   return (
     <>
-      <div className="flex flex-col  ">
-        <header>
+      <div className="flex flex-col items-center justify-center">
+        <header className=" w-full relative fixed top-0 inset-0">
           <Header />
         </header>
-        <div className="">
-          <Content />
-        </div>
-        <footer className="fixed bottom-0 inset-x-0 h-16">
+          <Content  />
+        <footer className="bottom-0 inset-x-0 h-16">
           <Footer />
         </footer>
       </div>
