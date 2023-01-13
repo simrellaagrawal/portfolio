@@ -4,16 +4,17 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import HomeIcon from '@mui/icons-material/Home';
-import "./footer.css"
 const Footer = () => {
   return (
     <>
       <hr className="border-x-0" />
-      <div className="flex flex-row justify-center h-48 gap-16 ">
+      <div className="flex flex-row justify-center h-48 gap-16 mobileMd:gap-1 tablet:gap-10">
+
       <div className=" flex flex-col justify-center  items-center  gap-1 ">
           <HomeIcon className="icon"/>
           <p className="mobileMd:text-xs tablet:text-base desktopMd:text-lg  leading-7 font-normal">Raigarh, Chhattishgarh</p>
         </div>
+        
         <div className=" flex flex-col justify-center  items-center  gap-1 ">
           <PhoneIcon className="icon"/>
           <p className="mobileMd:text-xs tablet:text-base desktopMd:text-lg  leading-7 font-normal">+917489211170</p>
@@ -25,7 +26,6 @@ const Footer = () => {
             simsim44144@gmail.com
           </p>
         </div>
-
         <div className="flex flex-col justify-center  items-center  gap-1">
           <p className="mobileMd:text-xs tablet:text-base desktopMd:text-lg  leading-7  font-bold">Follow Me</p>
           <div className=" flex gap-1">

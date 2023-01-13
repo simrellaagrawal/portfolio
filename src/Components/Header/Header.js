@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => { 
   return (
     <>
-      <div className="flex flex-row justify-end mobileMd:gap-2 pr-3 pt-3 h-14 bg-yellow-500">
+      <div className="flex flex-row justify-end mobileMd:gap-2 pr-3 pt-3  bg-yellow-500 mobileMd:h-10 tablet:h-14 laptopMd:h-14 desktopMd:h-14">
         <NavLink
           to="#home"
           className="font-bold mobileMd:text-xs tablet:text-base laptopMd:text-lg desktopMd:text-lg "
@@ -31,7 +31,6 @@ const Header = () => {
         {/* <NavLink
                   className=""
                   to="#"
-                  style={({ isActive }) => isActive ? activeStyle :{}}
                 >
                   CERTIFICATE
                 </NavLink> */}
